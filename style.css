@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+.slider {
+    margin-top: 20px;
+}
+
+.slider img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+@media (max-width: 768px) {
+    .slider .carousel-inner {
+        display: block;
+    }
+
+    .slider .col-md-4 {
+        margin-top: 20px;
+    }
+}
+
+.categories h1 {
+    font-size: 16px;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.categories .col {
+    margin-top: 30px;
+}
+
+.products{
+    margin: 5% auto;
+}
+
+.products h1 {
+    margin-top: 3%;
+}
+
+.product .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.product .row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.product {
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    cursor: pointer;
+    border: 1px solid #ddd;
+}
+
+.product img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+    transition: transform 0.3s, box-shadow 0.3s;
+    z-index: -99;
+}
+
+.product img:hover {
+    transform: scale(1.1);
+}
+
+.product .discount-badge {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: #ff4d4d;
+    color: #fff;
+    padding: 5px 10px;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 3px;
+    z-index: 22;
+}
+
+.product .price {
+    font-size: 16px;
+}
+
+.product .regular-price {
+    text-decoration: line-through;
+    color: #777;
+    margin-right: 8px;
+}
+
+.product .special-price {
+    font-weight: bold;
+    color: #d32f2f;
+}
+
+.product .button-group {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.product button {
+    padding: 8px 12px;
+    border: none;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.product .buy-now {
+    background-color: #ff0000;
+}
+
+.product .add-cart {
+    background-color: #000;
+}
+
+@media (max-width: 768px) {
+    .product .col-md-3 {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+}
+
+@media (max-width: 576px) {
+    .product .col-md-3, .col-6 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+}
+
+.ads img {
+    width: 100%;
+}

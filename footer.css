@@ -1,0 +1,26 @@
+footer a {
+    color: #000;
+    text-decoration: none;
+    line-height: 35px;
+  }
+  footer h5 {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  .social-icons a {
+    font-size: 18px;
+    color: #333;
+  }
+
+  footer p {
+    line-height: 30px;
+    font-size: 16px;
+  }
+
+  footer{
+    margin-top: 1%;
+  }
+
+  footer img {
+    margin-bottom: 20px;
+  }

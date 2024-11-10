@@ -1,0 +1,163 @@
+.nav-1 {
+    width: 100%;
+    height: 40px;
+    background-color: #d40000;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.nav-item {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    gap: 8px;
+}
+
+.nav-1 h4 {
+    font-size: 18px;
+    margin: 0;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .nav-1 h4 {
+        font-size: 14px;
+    }
+
+    .nav-item {
+        gap: 5px;
+    }
+}
+
+@media (max-width: 480px) {
+    .links {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .nav-1 h4 {
+        font-size: 16px;
+    }
+}
+
+.nav-2 {
+    width: 100%;
+    height: 80px;
+    background-color: rgb(247, 247, 247);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid #ddd;
+    position: relative;
+}
+
+.nav-2 .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.nav-2 img {
+    height: 50px;
+}
+
+.search-icon {
+    cursor: pointer;
+    font-size: 20px;
+    color: gray;
+}
+
+.pages {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    text-transform: uppercase;
+}
+
+.pages h4 {
+    font-size: 16px;
+    margin: 0;
+    cursor: pointer;
+    position: relative;
+}
+
+@media (max-width: 768px) {
+    .nav-2 img {
+        height: 40px;
+    }
+
+    .pages h4 {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 480px) {
+    .pages {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+    }
+}
+
+form.d-flex input {
+    width: 250px;
+}
+
+@media (max-width: 768px) {
+    form.d-flex input {
+        width: 100px;
+    }
+}
+
+@media (max-width: 576px) {
+    form.d-flex input {
+        width: 80px;
+    }
+}
+
+.navbar .dropdown-menu {
+    width: 600px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+}
+
+.navbar .dropdown-menu .col-md-4 {
+    padding: 10px;
+}
+
+.navbar .dropdown-menu h6 {
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.navbar .dropdown-item {
+    font-size: 14px;
+    color: #555;
+    padding: 5px 0;
+    transition: color 0.3s;
+}
+
+.navbar .dropdown-item:hover {
+    color: #d40000;
+    text-decoration: none;
+}
+
+@media (max-width: 768px) {
+    .navbar .dropdown-menu {
+        width: 100%;
+    }
+}

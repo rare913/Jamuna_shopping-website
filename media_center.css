@@ -1,0 +1,58 @@
+/* Media Center section styling */
+.media {
+    padding: 20px 0;
+}
+
+.media h1 {
+    font-size: 2em;
+}
+
+.media hr {
+    width: 10%;
+    margin: auto;
+    border-top: 2px solid red;
+}
+
+.media p {
+    font-size: 1rem;
+    color: #666;
+}
+
+/* Responsive iframe styling */
+.media iframe {
+    width: 100%;
+    height: 230px;
+    border: none;
+}
+
+.media .row .col {
+    padding: 15px;
+    text-align: center;
+}
+
+.media h2 {
+    font-size: 1.2rem;
+    margin-top: 15px;
+}
+
+.media p {
+    font-size: 0.9rem;
+    color: #444;
+}
+
+/* Media queries */
+@media (min-width: 768px) {
+    .media iframe {
+        height: 200px;
+    }
+}
+
+@media (min-width: 992px) {
+    .media iframe {
+        height: 250px;
+    }
+
+    .media h1 {
+        font-size: 2.5em;
+    }
+}

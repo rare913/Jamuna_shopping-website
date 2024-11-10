@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.about {
+    background-color: rgb(247, 247, 247);
+    padding-top: 5%;
+}
+
+.about p {
+    font-size: 16px;
+}
+
+.vision{
+    margin-top: 10%;
+}
+
+.vision h2, .mission h2 {
+    padding-top: 20px;
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+.vision img, .mission img {
+    width: 100%;
+}
+
+.vision p, .mission p {
+    line-height: 30px;
+    font-size: 20px;
+    padding: 20px;
+}
+
+.mission{
+    margin-top: 5%;
+}
+
+.Message{
+    margin-top: 10%;
+}
+
+.Message h2 {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.Message p {
+    font-size: 13px
+}
+@media screen and (max-width:767px) {
+    .vision img, .mission img {
+        padding: 20px;
+    }
+    
+    .about p {
+        padding: 20px;
+    }
+}
